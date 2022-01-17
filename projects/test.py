@@ -15,7 +15,7 @@ df=df.iloc[::-1]
 #%%
 import sys
 sys.path.append('../backtrader')
-sys.path.append('./backtrader')
+sys.path.append('../')
 import backtrader as bt
 import os
 import datetime
